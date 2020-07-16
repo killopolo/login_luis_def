@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context docBase="loginjee" path="loginjee" reloadable="true">
+<Resource 
+	name="jdbc/pool" 
+	auth="Container" 
+	type="javax.sql.DataSource"  
+	username="root" 
+	password="ayabrea" 
+	driverClassName="com.mysql.jdbc.Driver"  
+	url="jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC" 
+	maxActive="50" 
+	maxIdle="20"/> 
+</Context>
